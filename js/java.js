@@ -1,40 +1,45 @@
 $(document).ready(function(){
     function ocultar(){
-        $('#caja').fadeOut(200);
+        $('#ar_caja').fadeOut(200);
     };
     function mostrar(){
-        $('#caja').fadeIn(500);
+        $('#ar_caja').fadeIn(500);
     };
     ocultar();
     mostrar();
-    $('#btn1').on('mouseenter',function(){
+    $('#ar_btn1').on('click',function(){
         ocultar()
         mostrar()
-        $('#titulo').text("Crecimiento Profesional");
-        $('#descripcion').text('Descripcion de Crecimiento Profesional');
+        $('#ar_titulo').text("Crecimiento Profesional");
+        $('#ar_descripcion').text('Descripcion de Crecimiento Profesional');
+        $('#enlace').attr('href','Pega el link aqui');
     });
-    $('#btn2').on('mouseenter',function(){
+    $('#ar_btn2').on('click',function(){
         ocultar()
         mostrar()
-        $('#titulo').text("Tecnologia e Innovacion");
-        $('#descripcion').text('Descripcion de Crecimiento Profesional');
+        $('#ar_titulo').text("Tecnologia e Innovacion");
+        $('#ar_descripcion').text('No te quedes atras y aprende  todo lo que nesecitas sobre el avance tecnologico que hay en el mundo, desde como como funciona la web hasta la.');
+        $('#enlace').attr('href','Pega el link aqui');
     });
-    $('#btn3').on('mouseenter',function(){
+    $('#ar_btn3').on('click',function(){
         ocultar()
         mostrar()
-        $('#titulo').text("Produccion Audiovisual");
-        $('#descripcion').text('Descripcion de Crecimiento Profesional');
+        $('#ar_titulo').text("Produccion Audiovisual");
+        $('#ar_descripcion').text('Descripcion de Crecimiento Profesional');
+        $('#enlace').attr('href','Pega el link aqui');
     });
-    $('#btn4').on('mouseenter',function(){
+    $('#ar_btn4').on('click',function(){
         ocultar()
         mostrar()
-        $('#titulo').text("Desarrollo y Diseño Web");
-        $('#descripcion').text('Descripcion de Crecimiento Profesional');
+        $('#ar_titulo').text("Desarrollo y Diseño Web");
+        $('#ar_descripcion').text('Descripcion de Crecimiento Profesional');
+        $('#enlace').attr('href','Pega el link aqui');
     });
-    $('#btn5').on('mouseenter',function(){
+    $('#ar_btn5').on('click',function(){
         ocultar()
         mostrar()
-        $('#titulo').text("Programacion orienta a objetos");
-        $('#descripcion').text('Descripcion de Crecimiento Profesional');
+        $('#ar_titulo').text("Programacion orienta a objetos");
+        $('#ar_descripcion').text('Descripcion de Crecimiento Profesional');
+        $('#enlace').attr('href','Pega el link aqui');;
     });
 });
